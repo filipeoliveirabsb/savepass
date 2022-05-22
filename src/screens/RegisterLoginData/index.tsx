@@ -85,7 +85,7 @@ export function RegisterLoginData() {
             testID="email-input"
             title="E-mail"
             name="email"
-            error={errors.service_name && errors.service_name.message}
+            error={errors.email && errors.email.message}
             control={control}
             autoCorrect={false}
             autoCapitalize="none"
@@ -95,7 +95,7 @@ export function RegisterLoginData() {
             testID="password-input"
             title="Senha"
             name="password"
-            error={errors.service_name && errors.service_name.message}
+            error={errors.password && errors.password.message}
             control={control}
             secureTextEntry
           />
